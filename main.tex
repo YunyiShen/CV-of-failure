@@ -1,0 +1,150 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Required packages
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{longtable}
+\usepackage{xltabular} % Added to combine tabularx and longtable features
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+% Custom tabular environments - FIXED FOR PAGE BREAKS
+\newenvironment{cvtable}
+  {\xltabular{\textwidth}{@{} p{3.5cm} X p{3.5cm} @{}}}
+  {\endxltabular\vspace{0.5em}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{YUNYI SHEN}} \\[0.5em]
+    {\textbf{CV OF FAILURE}} \\[1.5em]
+    \begin{tabular}{rl}
+        \textbf{ADDRESS} & 32-D740 77 Massachusetts Ave. \\
+        \textbf{EMAIL} & \href{mailto:yshen99@mit.edu}{yshen99@mit.edu} \\
+        \textbf{GITHUB} & \href{https://github.com/YunyiShen}{@YunyiShen} \\
+        \textbf{WEBSITE} & \url{https://yunyishen.github.io}
+    \end{tabular}
+\end{center}
+
+\vspace{1.5em}
+
+
+\section*{Selected Faculty job not landed, by geographic area}
+\begin{cvtable}
+   
+    \textbf{US} & 45 in total & \\[1ex]
+    2026 Fall & \textbf{Cornell} \newline Statistics & Ithaca, NY \\[1ex] 
+    2026 Fall & \textbf{UC Berkeley} \newline Statistics & Berkeley, CA \\[1ex] 
+    2026 Fall & \textbf{UC Davis} \newline Statistics & Davis, CA \\[1ex] 
+    2026 Fall & \textbf{UNC} \newline SDSS & Chapel Hill, NC \\[1ex] 
+    2026 Fall & \textbf{NC State} \newline Statistics & Raleigh, NC \\[1ex] 
+
+    2026 Fall & \textbf{Ohio State} \newline Statistics & Columbus OH \\[1ex] 
+    2026 Fall & \textbf{U Chicago} \newline Statistics &Chicago IL \\[1ex] 
+    2026 Fall & \textbf{UIUC} \newline Statistics & Urbana, IL \\[1ex] 
+    2026 Fall & \textbf{U Pitt} \newline Statistics & Pittsburgh, PA \\[1ex] 
+    2026 Fall & \textbf{TAMU} \newline Statistics & College Station, TX \\[1ex] 
+
+    2026 Fall & \textbf{UMass Amerhst} \newline Statistics & Amerhst, MA \\[1ex] 
+    2026 Fall & \textbf{U MN} \newline Statistics &Twin City, MN \\[1ex] 
+    2026 Fall & \textbf{JHU} \newline Statistics & Baltimore, VA \\[1ex] 
+    2026 Fall & \textbf{JHU} \newline CS & Baltimore, VA \\[1ex] 
+    2026 Fall & \textbf{UT-Austin} \newline Oden, SciAI & Austin, TX \\[1ex] 
+
+     && \\[1ex]
+    \textbf{UK} & 9 in total & \\ [1ex]
+    2026 Fall & \textbf{Cambridge University} \newline ML lab & Cambridge UK \\[1ex]
+    2026 Fall & \textbf{Cambridge University} \newline Statistics & Cambridge UK \\[1ex]
+    2026 Fall & \textbf{King's college} \newline Statistics & London UK \\[1ex]
+    2026 Fall & \textbf{Bristol University} \newline Math AI & Bristol UK \\[1ex]
+    2026 Fall & \textbf{Imperial college} \newline Math & London UK \\[1ex]
+    2026 Fall & \textbf{Imperial college} \newline CS & London UK \\[1ex]
+    2026 Fall & \textbf{Durham} \newline CS & Durham UK \\[1ex]
+    && \\[1ex]
+    \textbf{Australia} & 1 in total & \\ [1ex]
+    2026 Fall & \textbf{UNSW} \newline Statistics & Sydney, Aus \\[1ex]
+    && \\[1ex]
+    \textbf{EU} & 3 in total & \\[1ex]
+    2026 Fall & \textbf{ELLIS Finland} \newline AI & Finland \\[1ex] 
+    2026 Fall & \textbf{ELLIS Germany} \newline AI & Germany \\[1ex] 
+    2026 Fall & \textbf{U Vienna} \newline CS & Austria \\[1ex] 
+    && \\[1ex]
+    \textbf{Canada} & 9 in total & \\[1ex]
+    2026 Fall & \textbf{U Toronto} \newline Statistics & Toronto \\[1ex] 
+    2026 Fall & \textbf{U Toronto} \newline CS & Toronto \\[1ex] 
+    2026 Fall & \textbf{U Waterloo} \newline CS & Waterloo \\[1ex] 
+    2026 Fall & \textbf{UBC} \newline CS & Vancouver \\[1ex] 
+    2026 Fall & \textbf{U Victoria} \newline Statistics & Victoria \\[1ex] 
+\end{cvtable}
+
+
+\section*{Selected industry job not landed, by industry}
+\begin{cvtable}
+   
+    \textbf{Quant} & 17 in total & \\[1ex]
+    2026 Fall & \textbf{Radix} \newline QR & NYC, NY \\[1ex] 
+    2026 Fall & \textbf{HRT} \newline QR & NYC, NY \\[1ex] 
+    2026 Fall & \textbf{DE Shaw} \newline QR & NYC, NY \\[1ex] 
+    2026 Fall & \textbf{SIG} \newline QR & Philly, PA \\[1ex] 
+    2026 Fall & \textbf{RenTech} \newline Research Scientist & Long Island, NY \\[1ex] 
+     && \\[1ex]
+
+     \textbf{AI} & 6 in total & \\[1ex]
+     2026 Fall & \textbf{ByteDance Seed} \newline Research Scientist, post training & San Jose, CA \\[1ex] 
+     2026 Fall & \textbf{openAI} \newline Research Scientist & CA \\[1ex] 
+     2026 Fall & \textbf{Google DeepMind} \newline Research Scientist & Mountain View, CA \\[1ex] 
+\end{cvtable}
+
+% Section 1
+\section*{Degree Programs Not Finished}
+\begin{cvtable}
+    August 2021 - May 2022 & \textbf{Doctor of Philosophy in Wildlife Ecology} \newline University of Wisconsin-Madison & Madison, USA \\[1ex]
+    August 2018 - Dec 2019 & \textbf{Master of Science in Environment and Resources} \newline University of Wisconsin-Madison & Madison, USA \\[1ex]
+    August 2017 - May 2018 & \textbf{Minor in Sociology} \newline Peking University & Beijing, China \\[1ex]
+    August 2016 - May 2017 & \textbf{Bachelor of Science in Geology} \newline Peking University & Beijing, China \\
+\end{cvtable}
+
+% Section 2
+\section*{Degree Programs Not Admitted}
+\begin{cvtable}
+    2022 & \textbf{Doctor of Philosophy in Statistics} \newline University of Chicago & Chicago, USA \\[1ex]
+    2021 & \textbf{Doctor of Philosophy in Statistics} \newline Stanford University & USA \\[1ex]
+    2021 & \textbf{Doctor of Philosophy in Statistics} \newline University of California-Berkeley & Berkeley, USA \\[1ex]
+    2021 & \textbf{Doctor of Philosophy in Statistics} \newline Duke University & Durham, USA \\[1ex]
+    2021 & \textbf{Doctor of Philosophy in Statistics} \newline University of British Columbia & Vancouver, Canada \\[1ex]
+    2021 & \textbf{Doctor of Philosophy in Statistics} \newline University of North Carolina & Durham, USA \\[1ex]
+    2021 & \textbf{Doctor of Philosophy in Statistics} \newline University of Michigan & USA \\[1ex]
+    2017 & \textbf{Doctor of Philosophy in Ecology} \newline Cornell University & Ithaca, USA \\[1ex]
+    2017 & \textbf{Doctor of Philosophy in Ecology} \newline University of California-Davis & Davis, USA \\[1ex]
+    2017 & \textbf{Doctor of Philosophy in Quantitative Ecology} \newline University of Washington & Seattle, USA \\[1ex]
+    2017 & \textbf{Doctor of Philosophy in Zoology} \newline University of Wisconsin-Madison & Madison, USA \\
+\end{cvtable}
+
+% Section 3
+\section*{Manuscripts Not Finished Older Than 3 Years}
+\noindent
+\begin{tabularx}{\textwidth}{@{} p{2.5cm} X @{}}
+    2022 & [1] Xiaoyun Shi, Yunyi Shen and Sheng Li "Mapping the current distribution of chrysolophus pheasants (C. pictus and C. amherstiae) to determine the range of potential hybridization" (in prep) \\
+\end{tabularx}
+\vspace{1em}
+
+% Section 4
+\section*{Awards and Scholarships Not Received}
+\begin{cvtable}
+    2022 & TWS Outstanding Student Award & U.S.A. \\[1ex]
+    2021 & ASA Student Paper Award & U.S.A. \\[1ex]
+    2020 & Janice Lee Fenske Memorial Award & IL, U.S.A. \\
+\end{cvtable}
+
+% Section 5
+\section*{Teaching Position Not Admitted}
+\begin{cvtable}
+    Fall 2018 & \textbf{TA, General Biology (BIO 152)} \newline UW Madison & \\
+\end{cvtable}
+
+\end{document}
